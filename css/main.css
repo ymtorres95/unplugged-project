@@ -226,6 +226,10 @@ textarea {
 /* Hero Area */
 
 .hero-area {
+background: url('/Users/macbook/Desktop/Skillcrush/unplugged-project/img/unplugged-retreat.jpg');
+background-size: cover;
+background-position: center;
+min-height: 500px;
 display: flex;
 justify-content: center;
 flex-flow: row wrap;
@@ -277,6 +281,9 @@ input [type=button] {
 /* Features */
 
 .features {
+  background: url('/Users/macbook/Desktop/Skillcrush/unplugged-project/img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
