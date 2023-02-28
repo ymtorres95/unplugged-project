@@ -103,6 +103,7 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -251,6 +252,7 @@ footer .copyright {
 }
 
 /* Mobile Styles - Homepage */
+
 /* Hero Area */
 
 .hero-area {
@@ -331,6 +333,11 @@ input [type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features i {
+  font-size: 3.85em;
+  margin-bottom: 40px;
 }
 
 .features p {
@@ -831,9 +838,10 @@ input [type=button] {
   *,
   *::before,
   *::after {
-    background: #fff !important;
+    background: transparent !important;
     color: #000 !important;
     /* Black prints faster */
+    -webkit-box-shadow: none !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
